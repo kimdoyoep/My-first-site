@@ -1,0 +1,615 @@
+body{
+  margin: 0;
+
+  background-color: black;
+
+}
+
+.start_menu{
+  background-color: black;
+
+}
+
+.navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.start_menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin: 0;
+}
+
+.start_menu li{
+  list-style: none;
+  color: whitesmoke;
+  font-size: 0.1rem;
+  font-weight: 100;
+  row-gap: 2px;
+
+}
+
+.navbar2{
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  padding-left: 105px;
+
+  position: sticky;
+  z-index: 10;
+  top: 12px;
+}
+
+.navbar2 a{
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+.left_icon{
+  padding: 12px 12px;
+}
+
+.left{
+  color: whitesmoke;
+  font-weight: 800;
+}
+
+.right{
+  color: black;
+  background-color: orange;
+  border-radius: 4px;
+  padding: 4px 4px 0px 4px;
+  font-weight: 800;
+}
+
+#srchIp{
+  padding: 5px 390px 3.8px 10px;
+
+}
+
+.searchbar i{
+  font-size: 16px;
+  background-color: orange;
+  padding: 4.5px 15px 6px 15px;
+  box-shadow:  0 0 1.5px orange;
+  border-radius: 0 4px 4px 0;
+}
+
+.searchbar{
+  position: absolute;
+  left: 412px;
+}
+
+.login_signUp a{
+  font-weight: 200;
+  font-size: 16px;
+  padding: 0 4px;
+  color: whitesmoke;
+
+}
+
+.login_signUp{
+  position: absolute;
+  left: 1170px;
+}
+
+.navbar3{
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  padding: 4px 0;
+  box-shadow: 0px -0.1px white;
+
+  position: sticky;
+  z-index: 10;
+  top: 82px;
+}
+
+.navbar3 ul{
+  display: flex;
+  margin: 0;
+  padding-right: 25px;
+  gap: 50px;
+}
+
+.navbar3 li{
+  list-style: none;
+  color: whitesmoke;
+  font-size: 0.8rem;
+
+  
+  
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.profile{
+  display: flex;
+  width: 80vw;
+  height: 280px;
+  justify-content: center;
+  
+}
+
+.profile-picture{
+  background-image: url(../images/ostnn.png);
+  
+  width: 100%;
+  height: 280px;
+
+  background-repeat: no-repeat;
+  background-position: 50% 19% ;
+  background-size: 100%;
+}
+
+.profile-image{
+  background-image: url(../Images/human.png);
+  
+  width: 160px;
+  height: 130px;
+
+  position: absolute;
+  left: 165px;
+  top: 235px;
+
+  background-size: cover;
+  background-position: 50% 50%;
+
+}
+
+.bundle{
+
+  display: flex;
+
+  top: 340px;
+  left: 350px;
+
+  position: absolute;
+}
+
+.profile-name{
+
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+
+}
+
+.bundle i{
+
+  width: 20px;
+  height: 20px;
+
+  color: rgb(93, 182, 226);
+
+  padding: 2.5px 2px 0 4px;
+
+}
+
+.bundle_2{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 400px;
+  height: 50px;
+
+  background-color: none;
+
+  position: absolute;
+
+  top: 320px;
+  left: 920px;
+
+
+}
+
+.title_1, .title_2, .title_3{
+  color: rgb(221, 221, 221);
+
+  font-size: 26px;
+  font-weight: 900;
+
+  display: flex;
+  justify-content: end;
+}
+
+.subtitle_1, .subtitle_2, .subtitle_3{
+  color: rgba(223, 223, 223, 0.993);
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main_2{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  width: 80vw;
+  height: 280px;
+
+  background: linear-gradient(to bottom, #424242 0%, #212121 50%, #000 100%);
+
+}
+
+.about{
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.about ul{
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+.about li{
+
+  list-style: none;
+
+  padding: 12px 18px;
+}
+
+.about a{
+  text-decoration: none;
+  color: rgba(212, 212, 212, 0.997);
+
+
+}
+
+.about ul a:hover {
+  color: white;
+
+  box-shadow: 0px 3px 0px orange;
+}
+
+.about_user{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.user{
+  color: whitesmoke;
+  padding-left: 20px;
+}
+
+.user_info{
+  color: rgb(137, 137, 137);
+
+  font-size: 15px;
+  font-weight: 200;
+
+  padding-left: 20px;
+}
+
+.icon_bundle{
+  position: absolute;
+  left: 500px;
+  top: 460px;
+
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.icon_bundle_2{
+  position: absolute;
+  left: 650px;
+  top: 460px;
+
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.long_info{
+
+  color: white;
+
+  font-size: 14px;
+  font-weight: 300;
+
+  width: 350px;
+
+  position: absolute;
+  top: 420px;
+  left: 860px;
+
+}
+
+.icon_bundle a{
+
+  font-size: 16px;
+  font-weight: 200;
+
+  color: #6a6a6a;
+
+  padding-left: 3px;
+}
+
+.icon_bundle i{
+  font-size: 20px;
+  color: white;
+}
+
+
+.icon_bundle_2 a{
+
+  font-size: 16px;
+  font-weight: 200;
+
+  color: #6a6a6a;
+
+  padding-left: 3px;
+}
+
+.icon_bundle_2{
+  font-size: 20px;
+  color: white;
+}
+
+.tt{
+  display: flex;
+  justify-content: center;
+}
+
+.whos_Video{
+  width: 80vw;
+
+  font-size: 25px;
+  font-weight: 900;
+
+  color: white;
+
+}
+
+.tt_2{
+  display: flex;
+  justify-content: center;
+}
+
+.main_box{
+
+  display: flex;
+
+  width: 80vw;
+  height: 1000px;
+  
+}
+
+.videos{
+  
+  width: 40px;
+  height: 1000px;
+
+  flex-grow: 7;
+
+  background-color: rgb(0, 0, 0);
+
+}
+
+.side_video{
+
+  width: 40px;
+  height: 1000px;
+
+  flex-grow: 4;
+
+  background-color: rgb(0, 0, 0);
+
+}
+
+.videos li{
+  list-style: none;
+  display: felx;
+}
+
+.videos ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+
+
+  margin: 0;
+  padding: 0;
+
+  gap: 10px;
+}
+
+.austin_video{
+
+  width: 200px;
+  height: 130px;
+
+  margin-top: 28px;
+
+  background-color: fuchsia;
+  background-image: url(../Images/austin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.video_title{
+  
+  width: 200px;
+  padding-top: 4px;
+  font-size: 10px;
+}
+
+.video_title a{
+  text-decoration: none;
+
+  color: #ece7e7e0;
+}
+
+.videos i{
+
+  color: rgb(122, 120, 120);
+
+  font-size: 6px;
+
+  display: inline;
+
+}
+
+.views{
+  font-size: 4px;
+
+  color: rgb(122, 120, 120);
+  ;
+}
+
+.thums_up{
+  font-size: 4px;
+  color: rgb(122, 120, 120);
+
+}
+
+.tip_info{
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+  color: white;
+}
+
+.tip_info strong{
+  font-size: large;
+
+}
+
+.outer{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 1px 0.2px rgb(188, 187, 187);
+
+}
+
+.tip_box{
+  width: 88%;
+  height: 44px;
+
+  background-color: orange;
+  
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ansrn{
+  font-weight: 900;
+
+}
+
+.outer_2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bebe{
+  padding: 10px 10px;
+
+  font-weight: 600;
+
+  color: white;
+}
+
+.paid_video{
+  margin: 50px 30px;
+}
+
+.price{
+  padding-left: 30px;
+  color: rgb(229, 225, 225);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.paid_video i {
+  color: rgb(122, 120, 120);
+}
+
+#key{
+  padding-left: 2px;
+  font-size: 14px;
+
+  color: #00b0ff;
+}
+
+.footer{
+  display: flex;
+  justify-content: end;
+}
+
+.footer i, a{
+  text-decoration: none;
+
+  padding-right: 10px;
+  padding-top: 50px;
+
+  font-weight: 300;
+
+  color: white;
+}
+
+.footer a{
+
+  padding-right: 30px;
+}
+
+.austin_video_2{
+
+  background-image: url(../Images/austin2.png);
+
+  width: 200px;
+  height: 130px;
+
+  margin-top: 28px;
+
+  background-color: fuchsia;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+
+
+
+
+
+
+
